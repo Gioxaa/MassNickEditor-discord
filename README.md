@@ -17,7 +17,7 @@ MassNickEditor is a Discord bot script that allows server administrators to modi
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Gioxaa/MassNickEditor-discord.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -28,7 +28,7 @@ MassNickEditor is a Discord bot script that allows server administrators to modi
     pip install -r requirements.txt
     ```
 
-4. Replace the placeholder token in the script with your Discord bot token.
+4. Put your discord bot token in last line in code ```bot.py``` bot.run("your bot token here")
 
 5. Run the bot:
     ```bash
@@ -36,14 +36,11 @@ MassNickEditor is a Discord bot script that allows server administrators to modi
     ```
 
 ## Usage
-
 - **Change Nicknames**: Use the `.call <nickname>` command to set a new nickname for all members.
   - Example: `.call EventName`
-  
 - **Restore Original Nicknames**: Use the `.backnick` command to restore all members' original nicknames.
 
 ## Contributing
-
 Feel free to fork the repository and submit pull requests. Contributions and suggestions are welcome!
 
 ## License
@@ -51,7 +48,3 @@ Feel free to fork the repository and submit pull requests. Contributions and sug
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-For any questions or support, please reach out to the repository owner or open an issue on GitHub.
-
-Happy coding!
